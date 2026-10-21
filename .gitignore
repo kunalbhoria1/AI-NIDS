@@ -1,0 +1,39 @@
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Local network captures
+*.pcap
+*.pcapng
+
+# Generated analysis results
+flows.jsonl
+aggregated_flows.jsonl
+alerts.jsonl
+aggregate_alerts.jsonl
+rule_alerts.jsonl
+
+# Local backups
+backups/
+*_backup_*.jsonl
+*_before_retry_*.jsonl
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Secrets
+.env
+.env.*
+!.env.example
+# Backup script
+analyze_flows_backup.py
+
+# Local agent configuration
+.agents/
