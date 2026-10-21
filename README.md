@@ -185,4 +185,6 @@ Use packet captures only when you are authorized to inspect the traffic. Treat t
 
 ## License
 
-Choose and add an appropriate license before distributing this project publicly.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
